@@ -1,0 +1,22 @@
+# Never commit scanner exports, reports or screenshots: they contain personal data
+# (names, account numbers, balances).
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+
+# Spreadsheet lock and temp files
+~$*.xlsx
+.~lock.*
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# Your own scanner exports and redacted copies (see README, Section 2)
+scans/
+redacted/

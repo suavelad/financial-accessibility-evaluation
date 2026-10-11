@@ -1,0 +1,17 @@
+Screens: 40   Findings: 364
+  NOTE: only 29 of 40 reports are unique - the same screen was captured more than once,
+  so the counts below include repeats of the same finding.
+
+Category              Count  Feeds SC
+Text contrast           196  1.4.3
+Touch target            167  2.5.8, 2.5.5
+Image contrast            1  1.4.11
+
+Touch targets: <24dp 58 | 24-43dp 73 | 44dp+ 36 | share <24dp 35% | from web content 167
+  NOTE: all findings are web content - label checks (1.1.1/2.4.4/4.1.2) are likely not evaluable.
+
+Text contrast: lowest 1.01:1 | <3:1 186 | <2:1 98
+  most frequent colour pairs: #2DCE5A on #F8F7F7 (38); #BBC1C7 on #FFFFFF (27); #92949C on #E8E8E8 (21); #A9A9A9 on #F8F7F7 (11)
+
+Image contrast: lowest 1.05:1 | <3:1 1 | <2:1 1
+  most frequent colour pairs: #24845A on #23805A (1)

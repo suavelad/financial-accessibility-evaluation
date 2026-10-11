@@ -1,0 +1,39 @@
+Screens: 21   Findings: 160
+  NOTE: only 14 of 21 reports are unique - the same screen was captured more than once,
+  so the counts below include repeats of the same finding.
+
+Category              Count  Feeds SC
+Touch target             99  2.5.8, 2.5.5
+Text contrast            40  1.4.3
+Item label                9  1.1.1, 2.4.4, 4.1.2
+Unexposed Text            5  1.1.1, 2.5.3
+Item descriptions         4  4.1.2, 1.3.1
+Item type label           2  4.1.2
+Image contrast            1  1.4.11
+
+Touch targets: <24dp 28 | 24-43dp 71 | 44dp+ 0 | share <24dp 28% | from web content 5
+
+Text contrast: lowest 1.16:1 | <3:1 38 | <2:1 7
+  most frequent colour pairs: #4887EC on #3F3F3F (11); #4886EA on #3F3F3F (10); #FFFFFF on #FF8200 (3); #3F3F3F on #222222 (3)
+
+Image contrast: lowest 2.45:1 | <3:1 1 | <2:1 0
+  most frequent colour pairs: #F58634 on #FCFCFC (1)
+
+Item label - most frequent elements:
+    3  [514,858][566,879]
+    2  [0,0][1080,2163]
+    1  [111,1427][748,1466]
+    1  [147,1644][989,1683]
+    1  [111,1888][989,1927]
+    1  [0,132][1080,2208]
+
+Unexposed Text - most frequent elements:
+    1  [0,132][1080,2208]
+    1  [52,1643][1027,1682]
+    1  [53,1708][1028,1866]
+    1  [53,1986][1028,2144]
+    1  [0,0][1080,2163]
+
+Item descriptions - most frequent elements:
+    3  [100,682][173,756]
+    1  [906,898][1028,969]
