@@ -123,6 +123,8 @@ Read the redacted files yourself before sharing them.
 ```
 README.md                  This file
 EVALUATION_REPORT.md       How every workbook value was produced
+LICENSE                    MIT licence for the code
+LICENSE-DATA               CC BY 4.0 licence for the data and documents
 data/
   Mobile App Accessibility Evaluation.xlsx
                            Ratings workbook: one tab per app, a Transactions tab per app,
@@ -166,4 +168,5 @@ The scripts in `workbook_build/` are a record of how the workbook was built. The
 
 ## Licence
 
-*[To add before release, for example MIT for the code and CC BY 4.0 for the data.]*
+- **Code** (`tools/*.py`, `workbook_build/`): [MIT](LICENSE).
+- **Data and documents** (the workbook, `screenshot_reviews/`, `expected_output/`, the checklist and this documentation): [CC BY 4.0](LICENSE-DATA). You may reuse and adapt them for any purpose if you credit the paper above.
